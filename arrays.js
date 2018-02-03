@@ -40,3 +40,7 @@ function removeElementFromBeginningOfArray (array,element){
 function destructivelyRemoveElementFromEndOfArray (array,element){
   array.pop()
 }
+
+function removeElementFromEndOfArray (array,element){
+  array.slice(1,element.length - 1)
+}
