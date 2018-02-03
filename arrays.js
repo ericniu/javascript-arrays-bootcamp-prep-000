@@ -15,7 +15,17 @@ function destructivelyAddElementToBeginningOfArray (array,element){
   array=[element,...array]
   return array
 destructivelyAddElementToBeginningOfArray (["a","b","c"])
+
+function addElementToBeginningOfArray (array,element){
+  array=[element,array]
+  return array
 }
+addElementToBeginningOfArray (["a","b","c"])
+
+function destructivelyAddElementToBeginningOfArray (array,element){
+  array=[element,array]
+  return array
+destructivelyAddElementToBeginningOfArray (["a","b","c"])
 
 function addElementToEndOfArray (array,element){
   array=[...array,element]
