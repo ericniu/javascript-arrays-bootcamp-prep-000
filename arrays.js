@@ -17,13 +17,13 @@ function destructivelyAddElementToBeginningOfArray (array,element){
 destructivelyAddElementToBeginningOfArray (["a","b","c"])
 
 function destructivelyAddElementToBeginningOfArray (array,element){
-  array=[element,array]
+  array=[array,element]
   return array
 }
 destructivelyAddElementToBeginningOfArray (["a","b","c"])
 
 function addElementToBeginningOfArray (array,element){
-  array=[element,array]
+  array=[array,element]
   return array
 AddElementToBeginningOfArray (["a","b","c"])
 
