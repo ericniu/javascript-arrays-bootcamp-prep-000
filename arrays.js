@@ -18,7 +18,7 @@ destructivelyAddElementToBeginningOfArray (["a","b","c"])
 }
 
 function addElementToEndOfArray (array,element){
-  array=[element,...array]
+  array=[...array,element]
   return array
 }
 addElementToEndOfArray (["a","b","c"])
