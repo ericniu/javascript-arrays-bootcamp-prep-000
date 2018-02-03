@@ -18,12 +18,13 @@ destructivelyAddElementToBeginningOfArray (["a","b","c"])
 }
 
 function addElementToEndOfArray (array,element){
+  array=[element,...array]
+  return array
+}
+addElementToEndOfArray (["a","b","c"])
+
+function destructivelyAddElementToEndOfArray (aaray,element){
   array=[...array,element]
   return array 
 }
-addElementToEndOfArray (["a","b","c"])
-function destructivelyAddElementToBeginningOfArray (array,element){
-  array=[...array, element]
-  return array
-destructivelyAddElementToBeginningOfArray (["a","b","c"])
-}
+destructivelyAddElementToEndOfArray (["a","b","c"])
