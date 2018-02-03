@@ -12,7 +12,7 @@ function addElementToBeginningOfArray (array,element){
 addElementToBeginningOfArray (["a","b","c"])
 
 function destructivelyAddElementToBeginningOfArray (array,element){
-  array=[element,...array]
+  array=[...array,element]
   return array
 destructivelyAddElementToBeginningOfArray (["a","b","c"])
 }
